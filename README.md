@@ -1,4 +1,8 @@
-# Machine_Learning_HWs
-Hello, this is the Repository for the Machine Learning Course. There are 3 projects in it.
+# Machine_Learning_Course
+Hello, this is the Repository for the Machine Learning Course. There are 3 projects in it. Note, much of this work is not my own, as they are workbooks created to my knowledge by Eric Eaton. However, I believe it is clear what work is my own either in the descriptions below or the workbooks themselves. If you have any questions, feel free to reach out. 
 
-The first project was implementing Gradient Descent. We implemented the cost function and gradient descent algorithms in the gd.py file. After doing this for basic linear regression, I focsed on multivariate regression. Again, I implemented the cost function, then two different versions of the gradient descent algorithm. First using the Normal Equations, and a second vectorized gradient descent. Finally, I used feature normalization to improve the speed at which the algorithm converges. 
+The first project was implementing Gradient Descent. I implemented the cost function and gradient descent algorithms in the gd.py file. After doing this for basic linear regression, I focsed on multivariate regression. Again, I implemented the cost function, then two different versions of the gradient descent algorithm. First using the Normal Equations, and a second vectorized gradient descent. Finally, I used feature normalization to improve the speed at which the algorithm converges. 
+
+The second project focuses on regression. I started by implementing the cost function and gradient descent algorithm for logistic regression. I then implemented a simple accuracy function. The project then changed to using logistic regression. Our first use case was spam classification, i.e. training a logistic regression model to tell if a message was spam or not. Next, I used logistic regression to classify pictures of numbers by implementing a 'one vs all' algorithm, i.e. we classify the image as the digit which maximizes the logistic function.
+
+The final project is a two-parter. The first part is implementing SVM using a polynomial and gaussian kernels. The next part was implementing Matrix Factorization, we then used that algorithm to fill in a matrix regarding movie recommendations. 
